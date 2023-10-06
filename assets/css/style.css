@@ -1084,12 +1084,12 @@ section {
   width: 100%;
 }
 
-.banner-details .banner-details-slider .swiper-pagination {
+.banner-details .banner-details-slider .swiper-pagination2 {
   margin-top: 20px;
   position: fixed;
 }
 
-.banner-details .banner-details-slider .swiper-pagination .swiper-pagination-bullet {
+.banner-details .banner-details-slider .swiper-pagination2 .swiper-pagination-bullet2 {
   width: 12px;
   height: 12px;
   background-color: #fff;
@@ -1097,44 +1097,13 @@ section {
   border: 1px solid #e78d1e;
 }
 
-.banner-details .banner-details-slider .swiper-pagination .swiper-pagination-bullet-active {
+.banner-details .banner-details-slider .swiper-pagination2 .swiper-pagination-bullet2-active {
   background-color: #e78d1e;
 }
 
-.banner-details .portfolio-info {
-  padding: 30px;
-  box-shadow: 0px 0 30px rgba(42, 44, 57, 0.08);
-}
 
-.banner-details .portfolio-info h3 {
-  font-size: 22px;
-  font-weight: 700;
-  border-bottom: 1px solid #eee;
-}
 
-.banner-details .portfolio-info ul {
-  list-style: none;
-  padding: 0;
-  font-size: 15px;
-}
 
-.banner-details .portfolio-info ul li+li {
-  margin-top: 10px;
-}
-
-.banner-details .portfolio-description {
-  padding-top: 30px;
-}
-
-.banner-details .portfolio-description h2 {
-  font-size: 26px;
-  font-weight: 700;
-  margin-bottom: 20px;
-}
-
-.banner-details .portfolio-description p {
-  padding: 0;
-}
 
 /*--------------------------------------------------------------
 # Testimonials

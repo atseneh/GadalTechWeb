@@ -260,7 +260,31 @@ new Swiper('.testimonials-slider', {
       clickable: true
     }
   });
+  new Swiper('.banner-details-slider', {
+    speed: 20000,
+    loop: true,
+    autoplay: {
+      delay: 1000,
+      disableOnInteraction: false
+    },
+    // slidesPerView: 'auto',
+    pagination: {
+      el: '.swiper-pagination',
+      type: 'bullets',
+      clickable: true
+    },
+    breakpoints: {
+      500: {
+        slidesPerView: 1,
+        spaceBetween: 2
+      },
 
+      1200: {
+        slidesPerView: 1,
+        spaceBetween: 2
+      }
+    }
+  });
   /**
    * Testimonials slider
    */
