@@ -1073,6 +1073,68 @@ section {
 .portfolio-details .portfolio-description p {
   padding: 0;
 }
+/*--------------------------------------------------------------
+# banner Details
+--------------------------------------------------------------*/
+.banner-details {
+  padding: 1px;
+}
+
+.banner-details .banner-details-slider img {
+  width: 100%;
+}
+
+.banner-details .banner-details-slider .swiper-pagination {
+  margin-top: 20px;
+  position: fixed;
+}
+
+.banner-details .banner-details-slider .swiper-pagination .swiper-pagination-bullet {
+  width: 12px;
+  height: 12px;
+  background-color: #fff;
+  opacity: 1;
+  border: 1px solid #e78d1e;
+}
+
+.banner-details .banner-details-slider .swiper-pagination .swiper-pagination-bullet-active {
+  background-color: #e78d1e;
+}
+
+.banner-details .portfolio-info {
+  padding: 30px;
+  box-shadow: 0px 0 30px rgba(42, 44, 57, 0.08);
+}
+
+.banner-details .portfolio-info h3 {
+  font-size: 22px;
+  font-weight: 700;
+  border-bottom: 1px solid #eee;
+}
+
+.banner-details .portfolio-info ul {
+  list-style: none;
+  padding: 0;
+  font-size: 15px;
+}
+
+.banner-details .portfolio-info ul li+li {
+  margin-top: 10px;
+}
+
+.banner-details .portfolio-description {
+  padding-top: 30px;
+}
+
+.banner-details .portfolio-description h2 {
+  font-size: 26px;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+
+.banner-details .portfolio-description p {
+  padding: 0;
+}
 
 /*--------------------------------------------------------------
 # Testimonials
