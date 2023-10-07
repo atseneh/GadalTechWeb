@@ -28,7 +28,36 @@
 
   <!-- Template Main CSS File -->
   <link href="assets/css/style.css" rel="stylesheet">
+<style>
+  .animate-charcter
+{
+   text-transform: uppercase;
+  background-image: linear-gradient(
+    -225deg,
+    #231557 0%,
+    #44107a 29%,
+    #ff1361 67%,
+    #fff800 100%
+  );
+  background-size: auto auto;
+  background-clip: border-box;
+  background-size: 200% auto;
+  color: #fff;
+  background-clip: text;
+  text-fill-color: transparent;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: textclip 2s linear infinite;
+  display: inline-block;
+      font-size: 100px;
+}
 
+@keyframes textclip {
+  to {
+    background-position: 200% center;
+  }
+}
+</style>
 </head>
 
 <body>
@@ -41,10 +70,11 @@
         <img src="assets/img/logo.png" >
         <h1 style="margin-left: 10px;"><a href="index.html">Gadal </a></h1>
       </div>
+
       <nav id="navbar" class="navbar">
         <ul>
           <li><a class="nav-link scrollto active" href="index.html#hero">Home</a></li>
-          <li class="dropdown"><a href="index.html#about"><span>About</span> <i class="bi bi-chevron-down"></i></a>
+          <li class="dropdown"><a href="index.index#about"><span>About</span> <i class="bi bi-chevron-down"></i></a>
             <ul>
               <li><a href="index.html#team">Founder</a></li>
             </ul>
@@ -53,13 +83,13 @@
           <li><a class="nav-link scrollto " href="portfolio-details.html">Portfolio</a></li>
           <li class="dropdown"><a href="inner-page.html"><span>News and blogs</span> <i class="bi bi-chevron-down"></i></a>
             <ul>
-              <li><a href="events.html">Upcoming events</a></li>
+              <li><a href="#">Job and Vacancies</a></li>
               <li class="dropdown"><a href="#"><span>Gallery</span> <i class="bi bi-chevron-right"></i></a>
                 <ul>
                   <li><a href="#">Video</a></li>
                 </ul>
               </li>
-             
+       
             </ul>
           </li>
           <li><a class="nav-link scrollto" href="jobs.html">Job & Career</a></li>
@@ -68,6 +98,7 @@
         </ul>
         <i class="bi bi-list mobile-nav-toggle"></i>
       </nav><!-- .navbar -->
+
 
     </div>
   </header><!-- End Header -->
@@ -79,43 +110,23 @@
       <div class="container">
 
         <div class="d-flex justify-content-between align-items-center">
-          <h2>Portfolio Details</h2>
+          <h2>Job and Vacancies </h2>
           <ol>
             <li><a href="index.html">Home</a></li>
-            <li>Portfolio Details</li>
+            <li>Events</li>
           </ol>
         </div>
 
       </div>
     </section><!-- End Breadcrumbs -->
 
-    <!-- ======= Portfolio Details Section ======= -->
-    <section id="portfolio-details" class="portfolio-details">
-      <div class="container">
-
-        <div class="row gy-4">
-
-          <div class="col-lg-8">
-            <div class="portfolio-details-slider swiper">
-              <div class="swiper-wrapper align-items-center">
-                <div class="swiper-slide">
-                  <img src="assets/img/Samusng Gadal.svg" alt="">
-                </div>
-
-                <div class="swiper-slide">
-                  <img src="assets/img/Iphone Gadal.svg" alt="">
-                </div>
-
-              </div>
-              <div class="swiper-pagination"></div>
-            </div>
-          </div>
-
-
+    <div class="container" style="margin-bottom: 300px;">
+      <div class="row">
+        <div class="col-md-12 text-center">
+          <h3 class="animate-charcter"> No job available.</h3>
         </div>
-
       </div>
-    </section><!-- End Portfolio Details Section -->
+    </div>
 
   </main><!-- End #main -->
 
